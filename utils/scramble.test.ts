@@ -5,5 +5,6 @@ describe('scramble()', () => {
     const scrambleMoves = scramble();
 
     expect(scrambleMoves).toBeDefined();
+    expect(typeof scrambleMoves).toEqual('string');
   });
 });
